@@ -1,3 +1,5 @@
+<img src="https://img.shields.io/github/package-json/v/vzuburlis/bootstrap-blog.svg">
+
 Bootstrap Blog
 ==============
 

@@ -10,7 +10,7 @@
                 </h1>
 
                 <!-- Posts -->
-                <?php foreach ($posts as $r) { ?>
+                <?php foreach ($c->posts as $r) { ?>
                 <h2>
                     <a href="<?=blog::get_url($r['id'],$r['slug'])?>"><?=$r['title']?></a>
                 </h2>

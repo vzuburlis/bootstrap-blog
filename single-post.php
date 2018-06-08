@@ -6,11 +6,11 @@
         <div class="row">
 
             <!-- Blog Entries Column -->
-            <div class="col-md-8">
+            <article class="col-md-8">
 
               <!-- Blog Post -->
                 <h1><?=$title?></h1>
-                <p class="lead">by <a href="#"><?=$author?></a></p>
+                <p class="lead">by <a href="<?=gila::url('blog/author/'.$author_id)?>"><?=$author?></a></p>
                 <hr>
                 <p>Posted on <?=date('F j, Y',strtotime($updated))?></p>
                 <hr>
@@ -18,8 +18,8 @@
                   echo '<img class="img-responsive" src="'.$_img.'" alt=""><hr>'; ?>
                 <?=$text?>
                 <hr>
-
-            </div>
+				<?php view::widget_area('post.after'); ?>
+            </article>
 
             <!-- Blog Sidebar Widgets Column -->
             <div class="col-md-4">

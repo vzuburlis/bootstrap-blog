@@ -1,13 +1,13 @@
 {
 	"name":"Bootstrap Blog",
-	"version":"0.1",
-	"description":"The bootstrap blog template from startbootstrap.com",
-	"url":"gilacms.com",
+	"version":"0.3.0",
+	"description":"Based on the Bootstrap Blog template from startbootstrap.com",
 	"options":{
 		"color":{
 			"default":"blue"
 		},
 		"footer-text":{
+			"default":"&copy; mysite"
 		}
 	}
 }
